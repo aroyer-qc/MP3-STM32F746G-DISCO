@@ -20,7 +20,6 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "player.h"
-#include "id3v2lib.h"
 
 /* Private define ------------------------------------------------------------*/
 
@@ -931,15 +930,6 @@ static AUDIO_ErrorTypeDef PlayerGetFileInfo(uint16_t file_idx, Audio_InfoTypeDef
   /*header pointer allocation*/
   header=tHeaderTmp;
   uint8_t str[FILEMGR_FILE_NAME_SIZE + 20];
-
-
-  ID3v2_tag* pTag;
-
-  pTag = load_tag((char *)FileList.file[file_idx].name);
-
-
-
-
 
   /* Open Audio File */
   if(f_open(&AudioFile, (char *)FileList.file[file_idx].name, FA_OPEN_EXISTING | FA_READ) != FR_OK)

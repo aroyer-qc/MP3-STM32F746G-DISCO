@@ -45,9 +45,6 @@ static void CPU_CACHE_Enable(void);
   */
 int main(void)
 {
-    (DBGMCU)->APB1FZ = 0x7E01BFF;
-    (DBGMCU)->APB2FZ = 0x70003;
-
   /* Configure the MPU attributes as Write Through */
   MPU_Config();
 
