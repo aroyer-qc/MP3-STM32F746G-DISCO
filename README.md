@@ -7,7 +7,7 @@ Added a 5 band equalizer.
 
 Just copy the file where they need to be... project handling of the demo from ST are a mess !!!
 
- For abetter experienced with this board, a new version far more interesting than this are in the pipe.
+ NOTE: For a better experienced with this board, a new version far more interesting than this are in the pipe.
 
   - Better graphics
   - FFT graphic analyzer
