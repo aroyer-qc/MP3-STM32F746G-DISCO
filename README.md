@@ -18,5 +18,5 @@ Just copy the file where they need to be... project handling of the demo from ST
   - Support song name and artist from TAG instead of the filename in joliet 8.3 old format.
   - Support file without TAG (ex. .wav) with cover, song name and artist name.
     
-  TO DO fix start glitch for first song.
+  TO DO fix start glitch for first song or change from different sampling.
   
