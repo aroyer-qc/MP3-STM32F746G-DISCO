@@ -5,7 +5,10 @@ It took only few hour to fix this demo.
 Fix the glitch when player change song, or when navigating song.
 Added a 5 band equalizer.
 
-Just copy the file where they need to be... project handling of the demo from ST are a mess !!!
+Just copy the file where they need to be...
+
+Available at:
+https://www.st.com/en/embedded-software/x-cube-audio.html
 
  NOTE: For a better experienced with this board, a new version far more interesting than this are in the pipe.
 
